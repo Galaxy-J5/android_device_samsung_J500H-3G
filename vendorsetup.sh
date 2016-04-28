@@ -1,1 +1,1 @@
-add_lunch_combo cm_j500H-userdebug
+add_lunch_combo cm_j500h-userdebug
