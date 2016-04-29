@@ -1,8 +1,11 @@
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-$(call inherit-product, device/samsung/j500h/full_j500h.mk)
+# Enhanced NFC
+$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=j500h TARGET_DEVICE=j500h
+$(call inherit-product, device/samsung/j53gxx/full_j53gxx.mk)
 
-PRODUCT_NAME := cm_j500h
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=j53gxx TARGET_DEVICE=j53g
+
+PRODUCT_NAME := cm_j53gxx
