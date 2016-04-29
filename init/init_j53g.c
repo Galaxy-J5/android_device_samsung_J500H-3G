@@ -63,10 +63,10 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     
     if (strstr(bootloader, "J500H")) {
        /* SM-J500H */
-       property_set("ro.build.fingerprint", "samsung/j5ltexx/j5lte:5.1.1/LMY48B/J500HXXU1APA5:user/release-keys");
-       property_set("ro.build.description", "j5ltexx-user 5.1.1 LMY48B J500HXXU1APA5 release-keys");
+       property_set("ro.build.fingerprint", "samsung/j53gxx/j53g:5.1.1/LMY48B/J500HXXU1APA5:user/release-keys");
+       property_set("ro.build.description", "j53g-user 5.1.1 LMY48B J500HXXU1APA5 release-keys");
        property_set("ro.product.model", "SM-J500H");
-       property_set("ro.product.device", "j5lte");
+       property_set("ro.product.device", "j53g");
        
        init_dsds();
     }
