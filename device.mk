@@ -13,7 +13,7 @@
 # limitations under the License.
 #
 
-# Also get non-open-source specific aspects if available
+# Also get non-open-source specific aspects if available This may change in the future!
 $(call inherit-product-if-exists, vendor/samsung/j5ltexx/j5ltexx-vendor.mk)
 
 # Boot animation
@@ -27,4 +27,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Inherit from j5-common
 $(call inherit-product, device/samsung/j5-common/common.mk)
-
