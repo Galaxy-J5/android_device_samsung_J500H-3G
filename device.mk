@@ -20,6 +20,12 @@ $(call inherit-product-if-exists, vendor/samsung/j5ltexx/j5ltexx-vendor.mk)
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
+LOCAL_OVERRIDES_PACKAGES += \
+    libnfc_nci \
+    NfcNci \
+    Tag \
+    com.android.nfc_extras
+
 #build.prop addition for J500H
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=0 \
