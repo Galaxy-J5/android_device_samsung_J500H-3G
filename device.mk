@@ -27,9 +27,9 @@ LOCAL_OVERRIDES_PACKAGES += \
     com.android.nfc_extras
 
 #build.prop addition for J500H
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.telephony.default_network=0 \
-    rild.libpath2=/system/lib/libsec-ril-dsds.so
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    ro.telephony.default_network=0 \
+#    rild.libpath2=/system/lib/libsec-ril-dsds.so
 
 # Inherit from j5-common
 $(call inherit-product, device/samsung/j5-common/common.mk)
