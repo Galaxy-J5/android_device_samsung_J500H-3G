@@ -20,16 +20,8 @@ $(call inherit-product-if-exists, vendor/samsung/j53gxx/j53gxx-vendor.mk)
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-LOCAL_OVERRIDES_PACKAGES += \
-    libnfc_nci \
-    NfcNci \
-    Tag \
-    com.android.nfc_extras
-
-#build.prop addition for J500H
-#PRODUCT_PROPERTY_OVERRIDES += \
-#    ro.telephony.default_network=0 \
-#    rild.libpath2=/system/lib/libsec-ril-dsds.so
+# Device overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/j53gxx/overlay
 
 # Inherit from j5-common
 $(call inherit-product, device/samsung/j5-common/common.mk)
