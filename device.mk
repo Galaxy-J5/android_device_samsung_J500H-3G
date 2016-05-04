@@ -14,7 +14,7 @@
 #
 
 # Also get non-open-source specific aspects if available This may change in the future!
-$(call inherit-product-if-exists, vendor/samsung/j5ltexx/j5ltexx-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/j53gxx/j53gxx-vendor.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
