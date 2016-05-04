@@ -40,8 +40,6 @@ void init_dsds() {
      property_set("ro.multisim.set_audio_params", "true");
      property_set("ro.multisim.simslotcount", "2");
      property_set("persist.radio.multisim.config", "dsds");
-     property_set("rild.libpath2", "/system/lib/libsec-ril-dsds.so");
-     property_set("ro.telephony.default_network", "0");
 }
 
 void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *board_type)
