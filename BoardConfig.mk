@@ -24,7 +24,7 @@
 -include device/samsung/j5-common/BoardConfigCommon.mk
 
 # Inherit from the proprietary version
--include vendor/samsung/j5ltexx/BoardConfigVendor.mk
+-include vendor/samsung/j53gxx/BoardConfigVendor.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := j53g,j53gxx
