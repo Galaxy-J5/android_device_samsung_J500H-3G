@@ -30,7 +30,7 @@
 TARGET_OTA_ASSERT_DEVICE := j53g,j53gxx
 
 # Kernel
-#TARGET_KERNEL_SOURCE := kernel/samsung/j53g
+TARGET_KERNEL_SOURCE := kernel/samsung/j53g
 TARGET_KERNEL_CONFIG := cyanogenmod_j53g_defconfig
 
 # Vendor Init
