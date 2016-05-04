@@ -23,5 +23,9 @@ TARGET_SCREEN_WIDTH := 720
 # Device overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/j53gxx/overlay
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    rild.libpath2=/system/lib/libsec-ril-dsds.so \
+    ro.telephony.default_network=0
+
 # Inherit from j5-common
 $(call inherit-product, device/samsung/j5-common/common.mk)
