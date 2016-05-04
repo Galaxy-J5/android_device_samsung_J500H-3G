@@ -33,6 +33,13 @@ TARGET_OTA_ASSERT_DEVICE := j53g,j53gxx
 TARGET_KERNEL_SOURCE := kernel/samsung/j53g
 TARGET_KERNEL_CONFIG := cyanogenmod_j53g_defconfig
 
+WLAN_MODULES:
+	mkdir -p $(KERNEL_MODULES_OUT)/pronto
+	mv $(KERNEL_MODULES_OUT)/wlan.ko $(KERNEL_MODULES_OUT)/pronto/pronto_wlan.ko
+	ln -sf /system/lib/modules/pronto/pronto_wlan.ko $(TARGET_OUT)/lib/modules/wlan.ko
+
+TARGET_KERNEL_MODULES += WLAN_MODULES
+
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_msm
