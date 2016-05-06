@@ -27,7 +27,7 @@
 -include vendor/samsung/j53gxx/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := j53g,j53gxx
+TARGET_OTA_ASSERT_DEVICE := j53g
 
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_j53g_defconfig
