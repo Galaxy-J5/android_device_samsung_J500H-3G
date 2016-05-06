@@ -59,7 +59,7 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         return;
 
     property_get("ro.bootloader", bootloader);
-    
+
     if (strstr(bootloader, "J500H")) {
        /* SM-J500H */
        property_set("ro.build.fingerprint", "samsung/j53gxx/j53g:5.1.1/LMY48B/J500HXXU1AOFB:user/release-keys");
