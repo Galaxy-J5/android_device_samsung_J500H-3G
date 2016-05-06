@@ -59,7 +59,6 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         return;
 
     property_get("ro.bootloader", bootloader);
-
     
     if (strstr(bootloader, "J500H")) {
        /* SM-J500H */
