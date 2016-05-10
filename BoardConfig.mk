@@ -26,6 +26,12 @@
 # Inherit from the proprietary version
 -include vendor/samsung/j53gxx/BoardConfigVendor.mk
 
+LOCAL_OVERRIDES_PACKAGES += \
+    libnfc_nci \
+    NfcNci \
+    Tag \
+    com.android.nfc_extras
+
 # Partition sizes
 BOARD_BOOTIMAGE_PARTITION_SIZE := 13631488
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 15728640
