@@ -41,8 +41,8 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_OTA_ASSERT_DEVICE := j53g
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_j5nlte_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/j5lte
+TARGET_KERNEL_CONFIG := cyanogenmod_j53g_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/j53g
 
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
