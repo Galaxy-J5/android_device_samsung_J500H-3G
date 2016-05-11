@@ -42,7 +42,7 @@ TARGET_OTA_ASSERT_DEVICE := j53g
 
 # Kernel
 TARGET_KERNEL_CONFIG := msm8916_sec_defconfig
-VARIANT_DEFCONFIG := msm8916_sec_j53g_eur_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_j53g_eur_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/j53g
 
