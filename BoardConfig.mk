@@ -41,7 +41,9 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_OTA_ASSERT_DEVICE := j53g
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_j53g_defconfig
+TARGET_KERNEL_CONFIG := msm8916_sec_defconfig
+VARIANT_DEFCONFIG := msm8916_sec_j53g_eur_defconfig
+TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/j53g
 
 # Vendor Init
