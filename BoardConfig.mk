@@ -44,7 +44,7 @@ TARGET_OTA_ASSERT_DEVICE := j53g
 #TARGET_KERNEL_CONFIG := msm8916_sec_defconfig
 #TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_j53g_eur_defconfig
 #TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
-TARGET_KERNEL_CONFIG := cyanogenmod_j53g2_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_j53g_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/j5lte
 
 # Vendor Init
