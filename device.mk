@@ -23,7 +23,7 @@ TARGET_SCREEN_WIDTH := 720
 # Device overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/j53gxx/overlay
 
-PRODUCT_PROPERTY_OVERRIDES += \
+ADDITIONAL_DEFAULT_PROPERTIES += \
     rild.libpath2=/system/lib/libsec-ril-dsds.so
 
 LOCAL_OVERRIDES_PACKAGES += \
