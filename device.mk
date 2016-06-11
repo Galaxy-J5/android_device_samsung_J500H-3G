@@ -28,11 +28,5 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     persist.radio.multisim.config=dsds \
     rild.libpath2=/system/lib/libsec-ril-dsds.so
 
-LOCAL_OVERRIDES_PACKAGES += \
-    libnfc_nci \
-    NfcNci \
-    Tag \
-    com.android.nfc_extras
-
 # Inherit from j5-common
 $(call inherit-product, device/samsung/j5-common/common.mk)
