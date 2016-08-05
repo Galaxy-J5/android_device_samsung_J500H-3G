@@ -21,7 +21,7 @@
 #
 
 # Inherit from common j5
--include device/samsung/j5-common/BoardConfigCommon.mk
+-include device/samsung/j53g-common/BoardConfigCommon.mk
 
 # Inherit from the proprietary version
 -include vendor/samsung/j53gxx/BoardConfigVendor.mk
