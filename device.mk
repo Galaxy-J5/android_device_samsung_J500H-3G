@@ -29,4 +29,4 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     rild.libpath2=/system/lib/libsec-ril-dsds.so
 
 # Inherit from j5-common
-$(call inherit-product, device/samsung/j53g-common/common.mk)
+$(call inherit-product, device/samsung/j5-common/common.mk)
