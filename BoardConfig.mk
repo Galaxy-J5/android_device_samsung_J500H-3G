@@ -38,10 +38,6 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 4294950911
 # Assert
 TARGET_OTA_ASSERT_DEVICE := j53g
 
-# Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_j53g_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/j5lte
-
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_j53g
